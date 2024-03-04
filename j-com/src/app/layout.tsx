@@ -16,7 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      {/* <h1>루트레이아웃</h1> */}
       <body>{children}</body>
     </html>
   );
