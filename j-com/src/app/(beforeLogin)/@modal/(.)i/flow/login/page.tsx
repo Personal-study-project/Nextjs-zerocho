@@ -1,3 +1,5 @@
+import LoginModal from "@/app/(beforeLogin)/_component/LoginModal";
+
 export default function Page() {
-    return "패러렐 모달"
+    return <LoginModal />;
 }
