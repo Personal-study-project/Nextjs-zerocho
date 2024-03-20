@@ -1,0 +1,16 @@
+{
+  "printWidth": 81,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": ["src/**/layout.tsx"],
+      "options": {
+        "no-console": "warn",
+        "no-unused-vars": "off",
+        "tabWidth": 8
+      }
+    }
+  ]
+}
